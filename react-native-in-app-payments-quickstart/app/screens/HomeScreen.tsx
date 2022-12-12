@@ -409,7 +409,7 @@ export default function HomeScreen() {
   };
 
   const customerIdIsSet = () => {
-    return CUSTOMER_ID !== 'REPLACE_ME';
+    return CUSTOMER_ID;
   };
 
   const checkStateAndPerform = async () => {

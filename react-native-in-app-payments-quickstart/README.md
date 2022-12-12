@@ -114,3 +114,5 @@ Square provides a sample backend service for this quickstart that can easily be 
 
 ## Feedback
 Rate this sample app [here](https://delighted.com/t/Z1xmKSqy)!
+
+https://stackoverflow.com/a/74339892/8769785

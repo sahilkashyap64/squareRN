@@ -13,17 +13,18 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-const SQUARE_APP_ID = 'REPLACE_ME';
-const SQUARE_LOCATION_ID = 'REPLACE_ME';
+const SQUARE_APP_ID = 'sandbox-sq0idb-osQof-0-NF_TJJHKSN7ntQ';
+      const SQUARE_LOCATION_ID = 'LHWWRH0J1DA5A';
+
 // Make sure to remove trailing `/` since the CHARGE_SERVER_URL puts it
-const CHARGE_SERVER_HOST = 'REPLACE_ME';
+const CHARGE_SERVER_HOST = 'https://0806-2409-4050-e4a-1ce-163-fd40-e965-23f5.in.ngrok.io/api/customers';
 const CHARGE_SERVER_URL = `${CHARGE_SERVER_HOST}/chargeForCookie`;
 const GOOGLE_PAY_LOCATION_ID = 'REPLACE_ME';
 const APPLE_PAY_MERCHANT_ID = 'REPLACE_ME';
 // constants require for card on file transactions
 const CREATE_CUSTOMER_CARD_SERVER_URL = `${CHARGE_SERVER_HOST}/createCustomerCard`;
 const CHARGE_CUSTOMER_CARD_SERVER_URL = `${CHARGE_SERVER_HOST}/chargeCustomerCard`;
-const CUSTOMER_ID = 'REPLACE_ME';
+const CUSTOMER_ID = '97RPAKWHX8WDNPZBK8FJSVE5VW';
 
 module.exports = {
   SQUARE_APP_ID,
